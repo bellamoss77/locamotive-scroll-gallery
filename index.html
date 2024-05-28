@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locamotive Scroll Gallery</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/efa7ivj.css">
+
+</head>
+<body>
+    <div data-scroll-container id="container">
+        <div class="hero">
+            <div data-scroll data-scroll-speed="3" class="copy">
+                <blockquote>
+                    "A dog is the only thing on earth that loves you more than he loves himself."
+                    <cite>
+                        -Josh Billings
+                    </cite>  
+                </blockquote>
+            </div>
+            <div class="image-wrapper">
+                <img src="images/Apo1.png" alt="dog">
+            </div>
+        </div>
+
+        <div class="section-0" data-scroll data-scroll-speed="2">
+            <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
+                Dogs are not our whole life,
+            </p>
+            <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+                but they make our lives whole.
+            </p> <br>
+            <cite>
+                -Roger Caras
+            </cite>
+        </div>
+
+        <div class="section-1">
+            <div class="image-mask"></div>
+        </div>
+
+        <div class="section-2">
+            <div id="pinSection" class="pinned-quote">
+                <blockquote data-scroll data-scroll-sticky data-scroll-target="#pinSection">
+                    “Dogs are our link to paradise. They don’t know evil or jealousy or discontent. To sit with a dog on a hillside on a glorious afternoon is to be back in Eden, where doing nothing was not boring—it was peace.” <br>
+                    <cite>
+                        -Milan Kindera
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="image-container">
+                <img src="images/Apo2.png" alt="dog">
+                <img src="images/Apo3.png" alt="dog">
+                <img src="images/Apo4.png" alt="dog">
+                <img src="images/Apo5.png" alt="dog">
+                <img src="images/Apo6.png" alt="dog">
+                <img src="images/Apo7.png" alt="dog">
+                <img src="images/Apo8.png" alt="dog">
+                <img src="images/Apo9.png" alt="dog">
+            </div>
+        </div>
+
+        <div class="section-3">
+            <div class="image-wrapper">
+                <img src="images/Apo10.png" alt="dog">
+            </div>
+            <div class="copy">
+                <blockquote data-scroll-speed="3" data-scroll>
+                    Everything I know, I learned from dogs. <br>
+                    <cite>
+                        -Nora Roberts
+                    </cite>
+                </blockquote>
+            </div>
+            <p class="copyright" data-scroll-position="bottom" data-scroll-speed="2" data-scroll>
+                &copy; Maggie Flinn Photography, 2024
+            </p>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="code.js"></script>
+</body>
+</html>
